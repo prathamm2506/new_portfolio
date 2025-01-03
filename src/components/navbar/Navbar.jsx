@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       {/* Logo */}
-      <img src={logo} alt="logo" className="logo" />
+      <p className="logo">Pratham</p>
 
       {/* Hamburger Icon */}
       <div className="hamburger" onClick={() => setIsMenuOpen(!isMenuOpen)}>

@@ -13,9 +13,8 @@
   
   /* Logo Styling */
   .logo {
-    height: 80px;
-    object-fit: contain;
-    z-index: 50;
+    font-size: 1.8rem;
+    font-weight: 700;
   }
   
   /* Hamburger Icon Styling */

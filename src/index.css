@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --full-background:#f9f5f2;
+  --black:#282825;
+  --yellow: #f7cb45;
+  --cabin: "Cabin", serif;
+  --livvic: "Livvic", sans-serif;
+}
+
+body{
+  background-color: var(--full-background);
+  font-family: var(--livvic);
+}
+
+.contt{
+  width: 80%;
+  margin: 0 auto;
+}

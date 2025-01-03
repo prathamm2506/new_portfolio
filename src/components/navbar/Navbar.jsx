@@ -21,7 +21,7 @@ const Navbar = () => {
 
       {/* Slide-in Navigation Menu */}
       <div className={`menu ${isMenuOpen ? "menu-open" : ""}`}>
-        <ul className="flex flex-row gap-6">
+        <ul>
           <li>
             <a href="#">About</a>
           </li>

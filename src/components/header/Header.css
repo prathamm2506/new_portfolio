@@ -1,0 +1,65 @@
+.button {
+    display: inline-block; /* Makes the button behave like an inline element but allows setting width/height */
+    padding: 12px 24px; /* Adjust padding for desired size */
+    background-color: var(--yellow); /* Gold color */
+    color: var(--black); /* Black text */
+    text-decoration: none; /* Remove underlines from links */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1.3rem; /* Adjust font size as needed */
+    cursor: pointer; /* Makes the cursor a pointer on hover */
+    border: 2px solid var(--black); /* remove default button border*/
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(40, 40, 37, 1);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(40, 40, 37, 1);
+    box-shadow: 3px 3px 0px 0px rgba(40, 40, 37, 1);
+    transition: all 0.3s ease; /* smooth transitions for hover effect */
+  }
+  
+  .button:hover {
+    -webkit-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+    -moz-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+    box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+  }
+
+  @media (max-width: 1340px) {
+    /* .responsiveh{
+        height: 100%;
+    } */
+    .responsiveh small{
+        font-size: 1.1rem;
+    }
+    .responsiveh h1{
+        font-size: 5rem;
+    }
+    .responsiveh p{
+        font-size: 1.1rem;
+    }
+    .responsiveh img{
+        width:70% ;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .responsiveh{
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        text-align: center;
+        gap: 6rem;
+    }
+    .responsiveh>div{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .responsiveh img{
+        width:90% ;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .responsiveh h1{
+        font-size: 4rem;
+    }
+  }

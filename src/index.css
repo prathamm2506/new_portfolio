@@ -10,19 +10,34 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: 'Unigeo';
+  src: url('/fonts/unigeo/Unigeo64-Regular-trial.ttf') format('truetype'),
+  url('/fonts/unigeo/Unigeo64-Bold-trial.ttf') format('truetype'),
+  url('/fonts/unigeo/Unigeo64-Extrabold-trial.ttf') format('truetype'),
+  url('/fonts/unigeo/Unigeo64-Extralight-trial.ttf') format('truetype'),
+  url('/fonts/unigeo/Unigeo64-light-trial.ttf') format('truetype'),
+  url('/fonts/unigeo/Unigeo64-Medium-trial.ttf') format('truetype'),
+  url('/fonts/unigeo/Unigeo64-Semibold-trial.ttf') format('truetype'),
+  url('/fonts/unigeo/Unigeo64-Thin-trial.ttf') format('truetype');
+}
+
 :root {
   --full-background: #f9f5f2;
+  --white: #ffffff;
   --black: #282825;
   --yellow: #f7cb45;
   --small: #52514e;
+  --h2:#0d0c22;
   --p: #52514e;
   --cabin: "Cabin", serif;
   --livvic: "Livvic", sans-serif;
+  --unigeo: "Unigeo", sans-serif;
 }
 
 body {
   background-color: var(--full-background);
-  font-family: var(--livvic);
+  font-family: var(--cabin);
 }
 
 .contt {
@@ -38,14 +53,20 @@ body {
 
 small {
   color: var(--small);
+  font-weight: 400;
 }
 
 h1 {
   color: var(--black);
 }
 
+h2{
+  color: var(--h2);
+}
+
 p {
   color: var(--p);
+  font-weight: 400;
 }
 
 

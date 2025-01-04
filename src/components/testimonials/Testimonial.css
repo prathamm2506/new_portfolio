@@ -1,0 +1,32 @@
+.testclass{
+    background-color: var(--white);
+}
+
+.testclass p{
+    color: var(--black);
+    font-family: var(--cabin);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.testclass small{
+    color: var(--small);
+    font-size: 1rem;
+    font-family: var(--cabin);
+}
+
+.testclass h2{
+    font-size: 3rem;
+    font-family: var(--cabin);
+    font-weight: 700;
+    line-height: 120%;
+}
+
+@media (max-width: 1000px){
+    .responsivetest{
+        flex-direction: column-reverse;
+    }
+    .responsivetest>div{
+        width: 100%;
+    }
+}

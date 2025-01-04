@@ -10,6 +10,7 @@ const Navbar = () => {
   };
 
   return (
+    <div className="contt">
     <div className="navbar-container">
       {/* Logo */}
       <p className="logo">Pratham</p>
@@ -38,6 +39,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+    </div>
     </div>
   );
 };

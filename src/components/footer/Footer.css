@@ -1,0 +1,7 @@
+hr{
+    border: 1px solid var(--black);
+}
+
+.footerline p{
+    font-size: 1.2rem;
+}

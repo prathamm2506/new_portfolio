@@ -1,0 +1,98 @@
+.conttext{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.conttext h1{
+    font-size: 3.8rem;
+    line-height: 110%;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.conttext p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--black) !important;
+}
+
+.conttext small{
+    font-size: 1rem;
+}
+
+.formdiv{
+    padding: 1rem;
+}
+
+.formdiv input{
+    border: 2px solid var(--black);
+    outline: none;
+    width: 50%;
+    border-radius:10px ;
+    font-size: 1.2rem;
+    padding: .6rem 1rem;
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    transition: all 0.3s ease; /* smooth transitions for hover effect */
+    font-family: var(--cabin);
+    color: var(--p);
+}
+
+.formdiv input:hover {
+    -webkit-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+    -moz-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+    box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+  }
+
+  .webcont{
+    width: 100%;
+  }
+
+  .webcont input{
+    width: 100%;
+  }
+
+  .webcont textarea{
+    border: 2px solid var(--black);
+    outline: none;
+    width: 100%;
+    margin-top: 1.5rem;
+    border-radius:10px ;
+    font-size: 1.2rem;
+    padding: .6rem 1rem;
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    transition: all 0.3s ease; /* smooth transitions for hover effect */
+    font-family: var(--cabin);
+    color: var(--p);
+  }
+
+  .webcont textarea:hover{
+    -webkit-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+    -moz-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+    box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+  }
+
+  .socials{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .socials>a{
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: .5rem;
+    margin-top: .5rem;
+    transition: all 0.3s ease; /* smooth transitions for hover effect */
+  }
+
+  .socials>a:hover{
+    background-color: var(--p);
+    transform: translateY(-3px);
+  }

@@ -7,23 +7,17 @@ const Contact = () => {
   return (
     <div className="flex flex-row eduu respoproj py-12">
       <div className="w-2/4 conttext">
-        <h1>Tell me about your project</h1>
-        <p>Tell me about your project</p>
-        <p>
-          After the inquiry, I will reply within 2-3 working days, with an
-          approximate quote for the project or with questions for more details.
-          After that, we can have an intro call to discuss your project and see
-          if it's a match.
-        </p>
+        <h1>Have a Project Idea? Let's Talk!</h1>
+        <p>I'm always excited to collaborate on innovative tech ideas, whether it's app development, AI integration, or solving real-world problems. Feel free to reach out if you'd like to brainstorm ideas, discuss a project, or work on something impactful together. Let's learn, build, and create meaningful solutions! </p>
         <div>
           <small>Email me at</small>
-          <p>hi@kristi.digital</p>
+          <p>prathammatkar2506@gmail.com</p>
         </div>
         <div>
             <small>Follow</small>
             <div className="socials">
-                <a href=""><FaInstagram /></a>
-                <a href=""><FaLinkedinIn /></a>
+                <a href="https://www.instagram.com/pratham_2506_/" target="_blank"><FaInstagram /></a>
+                <a href="https://www.linkedin.com/in/pratham-matkar-a2bb77257/" target="_blank"><FaLinkedinIn /></a>
             </div>
         </div>
       </div>

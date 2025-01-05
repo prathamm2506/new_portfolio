@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div className="flex flex-row contt py-12">
+    <div className="flex flex-row eduu respoproj py-12">
       <div className="w-2/4 conttext">
         <h1>Tell me about your project</h1>
         <p>Tell me about your project</p>

@@ -9,6 +9,7 @@
     line-height: 110%;
     margin-bottom: 1.5rem;
     font-weight: 600;
+    text-align: left !important;
 }
 
 .conttext p{
@@ -95,4 +96,16 @@
   .socials>a:hover{
     background-color: var(--p);
     transform: translateY(-3px);
+  }
+
+  @media (max-width:860px) {
+    .conttext{
+      text-align: center;
+    }
+    .conttext h1{
+      text-align: center !important;
+    }
+    .socials{
+      justify-content: center;
+    }
   }

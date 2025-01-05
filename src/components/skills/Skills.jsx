@@ -37,6 +37,7 @@ const Skills = () => {
             <p className='skills'>Git/GitHub</p>
             <p className='skills'>BitBucket</p>
             <p className='skills'>Tableau</p>
+            <p className='skills'>Postman</p>
             </div>
         </div>
     </div>

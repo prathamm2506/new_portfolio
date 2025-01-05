@@ -26,16 +26,22 @@ const Navbar = () => {
       <div className={`menu ${isMenuOpen ? "menu-open" : ""}`}>
         <ul>
           <li>
-            <a href="#" onClick={closeMenu}>About</a>
+            <a href="#expsec" onClick={closeMenu}>Experience</a>
           </li>
           <li>
-            <a href="#" onClick={closeMenu}>Services</a>
+            <a href="#testsec" onClick={closeMenu}>Testimonials</a>
           </li>
           <li>
-            <a href="#" onClick={closeMenu}>Portfolio</a>
+            <a href="#edusec" onClick={closeMenu}>Education</a>
           </li>
           <li>
-            <a href="#" onClick={closeMenu}>Contact</a>
+            <a href="#skillssec" onClick={closeMenu}>Skills</a>
+          </li>
+          <li>
+            <a href="#projectsec" onClick={closeMenu}>Projects</a>
+          </li>
+          <li>
+            <a href="#contactsec" onClick={closeMenu}>Contact</a>
           </li>
         </ul>
       </div>

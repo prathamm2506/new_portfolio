@@ -14,7 +14,7 @@ import img9 from '../../assets/webscrap.png'
 
 const Project = () => {
   return (
-    <div className='eduu'>
+    <div className='eduu' id='projectsec'>
         <h1>Featured Projects</h1>
 
         <div className='flex flex-row mt-12 justify-between respoproj'>

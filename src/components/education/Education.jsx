@@ -7,7 +7,7 @@ import img3 from '../../assets/3.png'
 
 const Education = () => {
   return (
-    <div className='eduu'>
+    <div className='eduu' id='edusec'>
         <h1>Academic Milestones</h1>
 
         <div className='flex items-center justify-between mt-12 respoedu'>

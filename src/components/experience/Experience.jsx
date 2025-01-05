@@ -7,7 +7,7 @@ import img3 from '../../assets/thefastway.png'
 const Experience = () => {
   return (
     <div>
-        <div className='eduu'>
+        <div className='eduu' id='expsec'>
                 <h1>Where Skills Met Impact</h1>
         
                 <div className='flex items-center justify-between mt-12 respoedu'>

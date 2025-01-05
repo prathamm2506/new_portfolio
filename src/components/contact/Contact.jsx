@@ -15,7 +15,7 @@ const Contact = () => {
     e.target.reset()
   };
   return (
-    <div className="flex flex-row eduu respoproj py-12">
+    <div className="flex flex-row eduu respoproj py-12" id="contactsec">
       <div className="w-2/4 conttext">
         <h1>Have a Project Idea? Let's Talk!</h1>
         <p>I'm always excited to collaborate on innovative tech ideas, whether it's app development, AI integration, or solving real-world problems. Feel free to reach out if you'd like to brainstorm ideas, discuss a project, or work on something impactful together. Let's learn, build, and create meaningful solutions! </p>

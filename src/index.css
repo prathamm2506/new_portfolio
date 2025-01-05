@@ -35,6 +35,10 @@
   --unigeo: "Unigeo", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--full-background);
   font-family: var(--cabin);

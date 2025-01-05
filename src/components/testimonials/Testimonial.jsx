@@ -3,7 +3,7 @@ import "./Testimonial.css";
 
 const Testimonial = () => {
   return (
-    <div className="w-full testclass py-20">
+    <div className="w-full testclass py-20" id="testsec">
       <div className="contt flex flex-row gap-20 responsivetest">
         <div className="w-2/4">
           <div className="mb-12">

@@ -5,10 +5,10 @@
 }
 
 .conttext h1{
-    font-size: 3.8rem;
-    line-height: 110%;
-    margin-bottom: 1.5rem;
-    font-weight: 600;
+    font-size: 3.8rem !important;
+    line-height: 110% !important;
+    margin-bottom: 1.5rem !important;
+    font-weight: 600 !important;
     text-align: left !important;
 }
 

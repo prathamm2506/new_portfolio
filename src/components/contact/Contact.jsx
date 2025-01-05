@@ -2,8 +2,18 @@ import React from "react";
 import "./Contact.css";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_v6kgaki', 'template_37gtb6n', form.current, 'e_4GZJ4zkAZXmNdwg')
+    e.target.reset()
+  };
   return (
     <div className="flex flex-row eduu respoproj py-12">
       <div className="w-2/4 conttext">
@@ -23,28 +33,27 @@ const Contact = () => {
       </div>
 
       <div className="w-2/4 formdiv">
-        <form action="">
-          <div className="flex flex-row gap-8 mb-6">
-            <input type="text" placeholder="Your name" />
-            <input type="text" placeholder="Your email" />
+        <form ref={form} onSubmit={sendEmail}>
+        <div className="webcont mb-6">
+            <input type="text" placeholder="Your name" name="name" />
           </div>
 
-          <div className="flex flex-row gap-8 mb-6">
+          {/* <div className="flex flex-row gap-8 mb-6">
             <input type="text" placeholder="Your number" />
             <input type="text" placeholder="Your address" />
-          </div>
+          </div> */}
           <div className="webcont">
-            <input type="text" placeholder="Your website" />
+            <input type="text" placeholder="Your email" name="email"/>
           </div>
           <div className="webcont">
             <textarea
-              name=""
-              id=""
+            rows="4"
+              name="message"
               placeholder="Project details, context, how can I help ..."
             ></textarea>
           </div>
 
-          <button className="button mt-6">Get in touch</button>
+          <button className="button mt-6" type="submit">Get in touch</button>
         </form>
       </div>
     </div>

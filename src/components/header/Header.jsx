@@ -1,6 +1,7 @@
 import React from 'react'
 import pratham from '../../assets/Pratham.png'
 import './Header.css'
+import CV from '../../assets/Resume - Pratham Matkar.pdf'
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
             <small className='text-xl leading-8'>Hi, my name is Pratham.</small>
             <h1 className='text-8xl uppercase font-bold my-2'>I BUILD SOLUTIONS THAT IMPACT.</h1>
             <p className='text-xl leading-8'>I create impactful tech solutions blending innovation with real-world problem-solving.</p>
-            <button className='w-max button mt-6'>Download CV</button>
+            <a className='w-max button mt-6' href={CV} download>Download CV</a>
         </div>
 
         <div className='w-2/4 flex justify-end text-center items-center'>

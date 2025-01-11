@@ -57,7 +57,7 @@ const Testimonial = () => {
               />
               <div className="flex flex-col">
                 <p>Prof. Subhash Kasture</p>
-                <small>Founder C-AIML GOM Mumbai, Nodal Officer for Indo-Israel Cybersecurity Connect</small>
+                <small>Founder C-AIML Mumbai, Nodal Officer for Indo-Israel Cybersecurity Connect, Govt of Maharashtra</small>
               </div>
             </div>
         </div>

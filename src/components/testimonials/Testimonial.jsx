@@ -22,7 +22,7 @@ const Testimonial = () => {
                  className="w-20"
               />
               <div className="flex flex-col">
-                <p>Jessica Ibbotson</p>
+                <p>TBD</p>
                 <small>Education Coordinator at Dribbble</small>
               </div>
             </div>

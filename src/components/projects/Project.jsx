@@ -9,6 +9,10 @@ import img6 from '../../assets/droneairgear.png'
 import img7 from '../../assets/terminalgpt.png'
 import img8 from '../../assets/stockpredict.png'
 import img9 from '../../assets/webscrap.png'
+import img10 from '../../assets/cropdisease.png'
+import img11 from '../../assets/iplpredict.png'
+import img12 from '../../assets/mars.png'
+
 
 
 
@@ -74,6 +78,26 @@ const Project = () => {
                 <img src={img9} alt="IMG" />
                 <a href="https://github.com/prathamm2506/ecom-webscrapper" target="_blank"><h3>Web Scrapper from E-Commerce Sites</h3></a>
                 <p>June 2024</p>
+            </div>
+        </div>
+
+        <div className='flex mt-12 justify-between respoproj'>
+            <div className='projcard'>
+                <img src={img10} alt="IMG" />
+                <a href="https://github.com/prathamm2506/Crop_Disease_Predict" target="_blank"><h3>CNN Based Crop Disease Prediction</h3></a>
+                <p>February 2025</p>
+            </div>
+
+            <div className='projcard'>
+                <img src={img11} alt="IMG" />
+                <a href="https://github.com/prathamm2506/ipl_auction_predict" target="_blank"><h3>IPL Auction Price Prediction</h3></a>
+                <p>Jan 2025</p>
+            </div>
+
+            <div className='projcard'>
+                <img src={img12} alt="IMG" />
+                <a href="https://mars-five-rho.vercel.app/" target="_blank"><h3>Curiosity Rover's Img Feed via API</h3></a>
+                <p>Dec 2024</p>
             </div>
         </div>
     </div>

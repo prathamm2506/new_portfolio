@@ -17,6 +17,7 @@ const Skills = () => {
             <p className='skills'>JavaScript</p>
             <p className='skills'>PHP</p>
             <p className='skills'>Dart</p>
+            <p className='skills'>R</p>
             </div>
         </div>
 
@@ -25,15 +26,23 @@ const Skills = () => {
             <div className='flex flex-row gap-6 items-center justify-center flex-wrap'>
             <p className='skills'>Firebase</p>
             <p className='skills'>MySQL</p>
+            <p className='skills'>MongoDB</p>
             </div>
         </div>
 
         <div className='skillsone my-6'>
-            <h2>Frameworks/Tools</h2>
+            <h2>Frameworks</h2>
             <div className='flex flex-row gap-6 items-center justify-center flex-wrap'>
             <p className='skills'>React JS</p>
             <p className='skills'>Node JS</p>
             <p className='skills'>Flutter</p>
+            <p className='skills'>Express</p>
+            </div>
+        </div>
+
+        <div className='skillsone my-6'>
+            <h2>Tools</h2>
+            <div className='flex flex-row gap-6 items-center justify-center flex-wrap'>
             <p className='skills'>Git/GitHub</p>
             <p className='skills'>BitBucket</p>
             <p className='skills'>Tableau</p>

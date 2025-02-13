@@ -2,6 +2,7 @@ import React from "react";
 import "./Testimonial.css";
 import img1 from '../../assets/gaurang.png'
 import img2 from '../../assets/kasturesir.png'
+import img3 from '../../assets/suyash.png'
 
 
 const Testimonial = () => {
@@ -11,19 +12,17 @@ const Testimonial = () => {
         <div className="w-2/4">
           <div className="mb-12">
             <p>
-              “In everything Kristina does, you can see that Product Design and
-              supporting people is a passion of hers...Students are over the
-              moon, and they specifically ask for her as their mentor.”
+              “Pratham is a passionate and skilled developer, who helped us develop an android application for integrating our live streaming platform with the drones. He also optimized a few control algorithms for efficient performance.”
             </p>
             <div className="flex gap-8 justify-start items-center mt-6">
               <img
-                 src={img1}
+                 src={img3}
                  alt="img"
                  className="w-20"
               />
               <div className="flex flex-col">
-                <p>TBD</p>
-                <small>Education Coordinator at Dribbble</small>
+                <p>Suyash Mali</p>
+                <small>R & D Engineer, Indrones Solutions</small>
               </div>
             </div>
           </div>

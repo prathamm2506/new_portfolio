@@ -82,10 +82,10 @@ const Project = () => {
         </div>
 
         <div className='flex mt-12 justify-between respoproj'>
-            <div className='projcard'>
-                <img src={img10} alt="IMG" />
-                <a href="https://github.com/prathamm2506/Crop_Disease_Predict" target="_blank"><h3>CNN Based Crop Disease Prediction</h3></a>
-                <p>February 2025</p>
+        <div className='projcard'>
+                <img src={img12} alt="IMG" />
+                <a href="https://mars-five-rho.vercel.app/" target="_blank"><h3>Curiosity Rover's Img Feed via API</h3></a>
+                <p>Dec 2024</p>
             </div>
 
             <div className='projcard'>
@@ -95,10 +95,10 @@ const Project = () => {
             </div>
 
             <div className='projcard'>
-                <img src={img12} alt="IMG" />
-                <a href="https://mars-five-rho.vercel.app/" target="_blank"><h3>Curiosity Rover's Img Feed via API</h3></a>
-                <p>Dec 2024</p>
-            </div>
+                <img src={img10} alt="IMG" />
+                <a href="https://github.com/prathamm2506/Crop_Disease_Predict" target="_blank"><h3>CNN Based Crop Disease Prediction</h3></a>
+                <p>February 2025</p>
+            </div>            
         </div>
     </div>
   )

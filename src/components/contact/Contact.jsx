@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
@@ -28,6 +29,7 @@ const Contact = () => {
             <div className="socials">
                 <a href="https://www.instagram.com/pratham_2506_/" target="_blank"><FaInstagram /></a>
                 <a href="https://www.linkedin.com/in/pratham-matkar-a2bb77257/" target="_blank"><FaLinkedinIn /></a>
+                <a href="https://github.com/prathamm2506" target="_blank"><FaGithub /></a>
             </div>
         </div>
       </div>

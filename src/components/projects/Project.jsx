@@ -12,6 +12,10 @@ import img9 from '../../assets/webscrap.png'
 import img10 from '../../assets/cropdisease.png'
 import img11 from '../../assets/iplpredict.png'
 import img12 from '../../assets/mars.png'
+import img13 from '../../assets/dualagent.png'
+import img14 from '../../assets/ieeeweb.png'
+
+
 
 
 
@@ -22,10 +26,16 @@ const Project = () => {
         <h1>Featured Projects</h1>
 
         <div className='flex flex-row mt-12 justify-between respoproj'>
-            <div className='projcard'>
+            {/* <div className='projcard'>
                 <img src={img1} alt="IMG" />
                 <a href="https://github.com/prathamm2506/text-to-image" target="_blank"><h3>Text to Image</h3></a>
                 <p>November 2024</p>
+            </div> */}
+
+            <div className='projcard'>
+                <img src={img13} alt="IMG" />
+                <a href="https://github.com/prathamm2506/dual_agent_research_system" target="_blank"><h3>Dual Agent Research System</h3></a>
+                <p>February 2025</p>
             </div>
 
             <div className='projcard'>
@@ -62,10 +72,16 @@ const Project = () => {
         </div>
 
         <div className='flex mt-12 justify-between respoproj'>
-            <div className='projcard'>
+            {/* <div className='projcard'>
                 <img src={img7} alt="IMG" />
                 <a href="https://github.com/prathamm2506/terminal-gpt-chatbot" target="_blank"><h3>Terminal Chatbot Using OpenAI API</h3></a>
                 <p>June 2024</p>
+            </div> */}
+
+            <div className='projcard'>
+                <img src={img14} alt="IMG" />
+                <a href="https://github.com/ieee-vesit/ieee-website" target="_blank"><h3>IEEE VESIT's Web Presence</h3></a>
+                <p>March 2025</p>
             </div>
 
             <div className='projcard'>

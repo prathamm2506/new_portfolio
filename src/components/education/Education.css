@@ -13,6 +13,7 @@
 .educard {
   width: 30%;
   height: 100%;
+  margin-bottom: 2rem;
   padding: 2rem 1rem;
   border: 2px solid var(--black);
   border-radius: 20px;
